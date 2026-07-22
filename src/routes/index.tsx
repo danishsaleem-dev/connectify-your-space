@@ -186,7 +186,7 @@ function Home() {
       {/* MISSION / STATEMENT */}
       <section className="relative overflow-hidden py-24">
         <div className="container-page">
-          <div className="relative overflow-hidden rounded-3xl border border-primary/20 bg-[var(--gradient-brand)] p-10 text-white shadow-[var(--shadow-brand)] md:p-16">
+          <div className="relative overflow-hidden rounded-3xl border border-primary/20 bg-(image:--gradient-brand) p-10 text-white shadow-(--shadow-brand) md:p-16">
             <div className="absolute -right-24 -top-24 h-72 w-72 rounded-full bg-white/10 blur-3xl" aria-hidden />
             <div className="relative grid gap-10 md:grid-cols-2 md:items-center">
               <div>
