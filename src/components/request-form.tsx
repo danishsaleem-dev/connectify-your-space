@@ -42,7 +42,7 @@ export function RequestForm({
   const fields: Field[] = [
     { name: "name", label: "Full name", placeholder: "Jane Doe" },
     { name: "email", label: "Email", type: "email", placeholder: "jane@company.com" },
-    { name: "phone", label: "Phone", placeholder: "+971 55 000 0000" },
+    { name: "phone", label: "Phone", placeholder: "+44 7700 000000" },
     { name: "company", label: companyLabel, placeholder: "Your brand or company" },
     { name: "subject", label: subjectLabel, placeholder: "How can we help?", full: true },
     { name: "message", label: "Message", placeholder: "Share details about your request…", full: true, textarea: true },
