@@ -1,5 +1,4 @@
 import { Link } from "@tanstack/react-router";
-import logoAsset from "@/assets/connectors-logo.asset.json";
 import { Mail, MapPin, Phone } from "lucide-react";
 
 const offices = [
@@ -28,7 +27,7 @@ export function SiteFooter() {
     <footer className="mt-24 border-t border-border bg-surface">
       <div className="container-page grid gap-10 py-16 md:grid-cols-2">
         <div>
-          <img src={logoAsset.url} alt="Connectors" className="h-10 w-auto" />
+          <img src="/connectors.jpg" alt="Connectors" className="h-10 w-auto" />
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-muted-foreground">
             Connecting brands, investors, franchisees, landlords and commercial
             projects into one growth ecosystem.

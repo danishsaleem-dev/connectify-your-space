@@ -1,4 +1,3 @@
-import mobileAsset from "@/assets/mobile-app.asset.json";
 import { Apple, Smartphone, CheckCircle2 } from "lucide-react";
 
 const highlights = [
@@ -59,7 +58,7 @@ export function MobileAppCTA() {
         <div className="relative flex items-center justify-center">
           <div className="absolute inset-0 -z-10 rounded-[3rem] bg-gradient-to-br from-primary/15 via-primary/5 to-transparent blur-2xl" aria-hidden />
           <img
-            src={mobileAsset.url}
+            src="/mobile-app.png"
             alt="Connectors mobile app on smartphone"
             loading="lazy"
             width={1024}

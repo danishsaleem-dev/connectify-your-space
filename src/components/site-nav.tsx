@@ -1,5 +1,4 @@
 import { Link } from "@tanstack/react-router";
-import logoAsset from "@/assets/connectors-logo.asset.json";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
@@ -16,7 +15,7 @@ export function SiteNav() {
     <header className="sticky top-0 z-40 border-b border-border/70 bg-background/80 backdrop-blur-md">
       <div className="container-page flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center gap-2.5">
-          <img src={logoAsset.url} alt="Connectors" className="h-9 w-auto" />
+          <img src="/connectors.jpg" alt="Connectors" className="h-9 w-auto" />
         </Link>
         <nav className="hidden items-center gap-1 md:flex">
           {links.map((l) => (

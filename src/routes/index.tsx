@@ -13,7 +13,6 @@ import {
   Rocket,
   Network,
 } from "lucide-react";
-import logoAsset from "@/assets/connectors-logo.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -282,7 +281,7 @@ function Home() {
       <section className="pb-24">
         <div className="container-page">
           <div className="flex flex-col items-center gap-6 rounded-3xl border border-border bg-surface p-12 text-center">
-            <img src={logoAsset.url} alt="Connectors" className="h-12 w-auto" />
+            <img src="/connectors.jpg" alt="Connectors" className="h-12 w-auto" />
             <p className="max-w-2xl font-display text-2xl leading-snug md:text-3xl">
               Brands. Investors. Franchisees. Locations. Opportunities.{" "}
               <span className="text-primary">All connected.</span>
